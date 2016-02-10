@@ -12,7 +12,7 @@
 
 body {
   background-image: url("hotcold.jpg");
-  background-size: 90em 60em;
+  background-size: cover;
 }
 
 
