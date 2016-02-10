@@ -1,8 +1,9 @@
 #main {
   width: 600px;
   margin: 3em;
-  text-align: center;
+  text-align: right;
   font-family: "Arial", Helvetica, sans-serif;
+
 }
 
 #temperature {
@@ -10,20 +11,33 @@
   margin-bottom: 50px;
 }
 
-body {
-  background-image: url("hotcold.jpg");
-  background-size: cover;
+
+.vertical-text{
+  transform: rotate(90deg);
+  position: absolute;
+  top: 1.5em;
+  right: 20px;
+
+  color: white;
+  font-size: 8em;
+  font-family: "Arial", Helvetica, sans-serif;
 }
 
 
+
+.bg-2 {
+  background-color: black;
+  padding: 0.7em;
+}
+
 .low-usage {
-  color: blue;
+  color: #ADD8E6;
 }
 
 .medium-usage {
-  color: yellow;
+  color: #FFA500;
 }
 
 .high-usage {
-  color: red;
+  color: #CC0000;
 }
