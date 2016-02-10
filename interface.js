@@ -18,4 +18,9 @@ $(document).ready(function() {
       updateTemprature();
     });
 
+    $('#temperature-reset').on('click', function() {
+      thermostat.resetTemperature();
+      updateTemprature();
+    });
+
 });
