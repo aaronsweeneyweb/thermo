@@ -5,6 +5,7 @@ $(document).ready(function() {
 
     function updateTemprature(){
       $('#temperature').text(thermostat.temperature);
+      $('#temperature').attr('class', thermostat.energyUsage());
     }
 
 
