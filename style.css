@@ -1,9 +1,27 @@
+#main {
+  width: 600px;
+  margin: 3em;
+  text-align: center;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+#temperature {
+  font-size: 8em;
+  margin-bottom: 50px;
+}
+
+body {
+  background-image: url("hotcold.jpg");
+  background-size: 90em 60em;
+}
+
+
 .low-usage {
-  color: green;
+  color: blue;
 }
 
 .medium-usage {
-  color: orange;
+  color: yellow;
 }
 
 .high-usage {
